@@ -3,10 +3,10 @@
 Sistema desenvolvido com conceitos de Web Crawler e Bots no Twitter.
 
 - Requisitos
-undefined
+  undefined
 
 - Ferramentas
-undefined
+  undefined
 
 Padrão de commits: https://github.com/rafatosta/padroes-de-commits
 
@@ -17,10 +17,10 @@ README em construção. Esta NÃO é sua versão final.
 System developed with concepts of Web Crawler and Twitter Bots.
 
 - Requirements
-undefined
+  undefined
 
 - Tools
-undefined
+  undefined
 
 Commit pattern: https://github.com/rafatosta/padroes-de-commits
 
