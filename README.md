@@ -13,4 +13,4 @@ Padrão de commits: https://github.com/rafatosta/padroes-de-commits
 README em construção. Esta NÃO é sua versão final. 
 
 ### Testes
-para testar, instalar dependecias do arquivo "requeriments.txt" e baixar o arquivo main.py. Por fim, execute o codigo.
+para testar, instalar dependecias do arquivo "requeriments.txt" e baixar o arquivo main.py ou outro que desejar testar individualmente. Por fim, execute o codigo.
