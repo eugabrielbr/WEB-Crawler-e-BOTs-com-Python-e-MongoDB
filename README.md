@@ -12,16 +12,5 @@ Padrão de commits: https://github.com/rafatosta/padroes-de-commits
 
 README em construção. Esta NÃO é sua versão final. 
 
-==============================================================================
-
-System developed with concepts of Web Crawler and Twitter Bots.
-
-- Requirements
-  undefined
-
-- Tools
-  undefined
-
-Commit pattern: https://github.com/rafatosta/padroes-de-commits
-
-README under construction. This is NOT your final version.
+### Testes
+para testar, instalar dependecias do arquivo "requeriments.txt" e baixar o arquivo main.py. Por fim, execute o codigo.
