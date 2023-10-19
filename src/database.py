@@ -2,7 +2,7 @@ from pymongo.mongo_client import MongoClient
 from dotenv import load_dotenv
 import os
 from datetime import *
-import main
+import Crawler
 
 class DataBase:
 
@@ -40,21 +40,13 @@ class DataBase:
         else:
             print("Dado nao encontrado")
             
+def main():
+    
+    pass
 
 if __name__ == "__main__":
 
-    obj = DataBase() 
-    objMain = main.Crawler()
-
-    data = objMain.extractNecessary()
-    dateNow = str(datetime.now().date())
-
-    # inserindo
-    obj.insert(data)
-
-    # buscando
-    result = obj.find({'datenow' : dateNow})
-    print(result)
+    main()
 
     
 
