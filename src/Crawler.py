@@ -1,5 +1,4 @@
 import requests
-import exc
 from bs4 import BeautifulSoup
 from datetime import *
 
