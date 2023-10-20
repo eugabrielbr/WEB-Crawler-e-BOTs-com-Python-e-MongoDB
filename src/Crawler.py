@@ -11,7 +11,6 @@ class Crawler:
     def request(self,link: str): #pegando a pag html
         
         response = requests.get(link)
-        print(response)
         text = BeautifulSoup(response.text, 'html.parser')
         return text
 
