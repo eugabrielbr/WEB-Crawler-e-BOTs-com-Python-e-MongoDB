@@ -56,7 +56,11 @@ class Bot:
 
         else:
 
-            if ( 40 >= data["tempMax"] >= 35):
+            if ( 35 > data["tempMax"] > 30):
+                
+                title = "🚨 ALERTA: QUENTE 🔥" 
+
+            elif ( 40 >= data["tempMax"] >= 35):
                 
                 title = "🚨 ALERTA: MUITO QUENTE 🔥" 
             
@@ -64,14 +68,17 @@ class Bot:
             elif( data["tempMax"] > 40):
 
                 title = "🚨 ALERTA: SUPER QUENTE! ❗🔥" 
-          
 
-            elif ( 15 >= data["tempMax"] >= 5):
+            elif (18 >= data["tempMin"] > 15):
+
+                title = "🚨 ALERTA: FRIO! ❄️" 
+
+            elif ( 15 >= data["tempMin"] >= 5):
 
                 title = "🚨 ALERTA: MUITO FRIO! ❄️" 
            
             
-            elif (data["tempMax"] < 5):
+            elif (data["tempMin"] < 5):
 
                 title = "🚨 ALERTA: SUPER FRIO! ❗❄️" 
            
@@ -90,7 +97,6 @@ class Bot:
         alertLevel = self.titleAlert(data)
 
         post = "{}\n\n{}\n\nTemperatura minima: {}° ⬇️\nTemperatura maxima: {}° ⬆️\nPorcentagem de chuva: {} 🌧️\nRaios UV: {} ☀️\n\nMais informações: {} 👇".format(alertLevel,data['title'],data['tempMin'],data['tempMax'], str(data['porChuva']) + "%" + " - " + str(data['mmChuva']) + "mm",data['infos']['Raios UV'],'www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/5764/irara-ba')
-        print(len(post))
         self.client.create_tweet(text = post)
         
 
