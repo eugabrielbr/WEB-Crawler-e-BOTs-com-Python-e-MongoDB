@@ -22,6 +22,10 @@ A meta do projeto era e sempre foi a aprendizagem; logo, o código pode apresent
   
 ## Desenvolvimento
 
+### Perfil
+
+O perfil que está rodando o bot é esse --> @alertaclim89887
+
 ### Instalação
 
 Faça o download do repositório
