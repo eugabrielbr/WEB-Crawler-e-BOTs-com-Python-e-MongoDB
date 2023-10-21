@@ -24,7 +24,7 @@ A meta do projeto era e sempre foi a aprendizagem; logo, o código pode apresent
 
 ### Perfil
 
-O perfil que está rodando o bot é esse --> @alertaclim89887
+O perfil que está rodando o bot é esse --> [alertaclim89887](https://twitter.com/alertaclim89887)
 
 ### Instalação
 
